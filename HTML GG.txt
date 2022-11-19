@@ -1,0 +1,60 @@
+HTML:
+====
+hypertext markup language
+
+hyper text= is link between the webapages
+markup= defines the text document within tag which dfines the structure of web pages.
+
+
+html languages is used by the brwoser to manipulate text,image, and content to display in the requuired format
+
+why to use html:
+=================
+base  for creating websites
+
+learn web development
+can become freelancer
+
+basic format of html:
+=======================
+<!DOCTYPE html>
+<html>
+
+<head>
+           <title></title>
+		   <!-- head section of the website-->
+</head>
+<body>
+
+ <!-- Body section of the website-->
+ 
+</body>
+
+</html>
+
+
+
+
+colors:
+----------
+1.hexa decimal style
+  #00ff00
+  first two numbers red
+  next two numbers green
+  last two numbers blue
+
+2.RGB style(redgreenblue):
+  the range of each color is 0 to 255
+    rgb(0,255,0);
+3.RGBA style:
+  in this style extra we add alpha its give traparency to the colors
+                       the range of alpha is 0 to 1
+					rgba(0,45,127,0.2)
+4,HSL colors:
+ (hue, saturation, liteness)
+    hue is the color of the image itself. the range is 0 to 360, 0 is for red: 120 is frp green:
+	240 is for blue.
+	satuaration is persantages  0 to 100%
+	lightness is color space bright ness   0%black    100%white
+	
+

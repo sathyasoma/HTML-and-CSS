@@ -1,0 +1,340 @@
+
+CSS:
+===
+CASECADING STYLE SHEETS:
+========================
+   css is casecading style sheet is used to make the webpage atrractive.
+   the reason for css is to make web pages simple and presentable.
+   it allows styles to web pages.
+   
+ 
+
+why we learn:
+============
+base to web development
+makes your website look attractive
+makes the design come alive
+increase your experiance of website
+more career opurtunities
+
+
+css syntax:
+------------
+A css comprises the style rules that are interpreted by the browser and applied corresponding element
+in your document.
+
+A style rule set consists of selector and declaration block.
+
+h1(selector)
+{
+//declaration block
+
+//property: value;
+
+color: red;
+}
+
+
+CSS selectors:
+==================
+used to find html elements are id,class, attribute and more
+
+1. universal selector
+       
+	   *{
+	   color:#000000;(pure black)
+	   }
+
+2.Element selector
+  
+        p{
+		
+		color:red;
+		text-align: center;
+		
+		}
+
+3.Desendent selector
+   if you want apply a perticular element in lies inside the perticular element
+   inside ul tag.
+   
+   ul em{
+   color:#000000;
+   
+   }
+
+4.The Id selector
+
+	the id should be unique usedd in any element.
+	
+	eg: id="para1"
+
+5.Class selector
+
+class attribute
+
+<p  class="parent"> this paragraph represents class attibute</p>
+
+
+6.Grouping selectors:
+
+if you have same elemnts with the same style definitions
+
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+  
+h2 {
+    text-align: center;
+    color: blue;
+}
+  
+p {
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+  
+There are three types of css:
+=============================
+    Inline css
+	  internal or embaded css
+	     external css
+		 
+		 
+inline css:
+--------------
+             it is used in with in the open tag write the attributes
+			 
+			 eg:  <h1 style="color: green;">GeeksforGeeks</h1>
+
+Embeded or internal css;
+=========================
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> internal CSS </title>
+    <style>
+     h1 {
+        color: green;
+     } 
+    </style>
+  <head>
+  <body>
+    <h1">GeeksforGeeks</h1>
+  </body>
+</html>
+
+
+
+Exyernal css:
+============
+
+it is used for sepeate file for css.
+
+/* this will be separate file */
+<style>
+h1 {
+   color: green;
+}
+</style>
+
+
+charecteristics of css:
+========================
+maintanance 
+
+time saving
+
+support
+
+cache storing
+
+native frojnt end
+
+selectors
+
+
+
+comments:
+===========
+comments are the statemnts in your code that are ignored by the compiler and are not executed .
+
+comments rae used to expakin the code 
+ they make the progrram more readdeble and understandable.
+ 
+ =. comments are single line and multiline 
+ 
+  /* Single line comment */
+  
+  
+  /* This is a multiline
+           comment */
+		   
+		   
+		   
+CSS colors:
+===========
+
+css color property is used to set the color of  html elemnts.
+   this property is used to set font color and background color.
+
+
+** color of an element can be defined following ways
+
+*built in color
+*RGB format
+*RGBA format
+*Hexadecimal notation
+*HSL
+*HSLA
+
+
+
+built in color:
+==============
+
+h1{
+color:color-name;
+}
+
+RGB format:
+===========
+here the range of red green blue is 0 to 255
+it can applicable for html elements
+
+
+h1{
+
+color:rgb(R,G,B);
+}
+ 
+ 
+RGBA FORMAT:
+=============
+
+in this case it can add alpha the range of alpha is 0 to 1
+
+alpha is related to transparency of the color
+
+
+
+h1{
+
+color:rgba(R,G,B,A);
+}
+
+
+Hexadecimal notation:
+======================
+the hexadecimal notation begins with #symbol follwed by  6 charecters each range 0 to file
+
+
+eg:  Red: #FF0000   blue: #00ff00   green:  #0000ff
+
+color: #(0-f)(0-f)(0-f)(0-f)(0-f)(0-f);
+
+
+HSL :
+======
+hue saturation lightness
+
+this format is used for cylindrical coordinate systems.
+
+Hue: hue is the degree of color
+             its values lies b/wn :0 to 360
+			 0 represent RED
+			 120 represent GREEN
+			 240 represent Blue
+saturation:   its represent in percentages 0 to 100%
+Lightness: 0 to 100%
+
+HSLA:
+extra aplha transparency
+
+background :
+----------
+background color
+background imagae
+background-repeat
+background attachment
+background position
+
+
+
+borders:
+===========
+
+
+fonts:
+=====
+The CSS font property is used to set the font’s content of the HTML element. There are many font properties in CSS which are discussed below: 
+
+font-family
+font-style
+font-weight
+font-variant
+font-size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
